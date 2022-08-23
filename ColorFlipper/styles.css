@@ -1,0 +1,44 @@
+/*
+========
+Global Styles
+========
+*/
+
+/* *,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+
+/*
+========
+nav
+========
+*/
+
+.nav-center {
+  display: flex;
+  width: 90vw;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+}
+
+nav a {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+nav a:hover{
+  color: lightblue;
+}
