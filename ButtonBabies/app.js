@@ -1,8 +1,10 @@
 const ctr = document.querySelector('.container');
 
 ctr.addEventListener('click', (e) => {
-  incrementCount(e);
-  addNewButton();
+  if (e.target.className !== 'container') {
+    incrementCount(e);
+    addNewButton();
+  }
 });
 
 const addNewButton = () => {
