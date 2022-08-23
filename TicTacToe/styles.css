@@ -1,0 +1,19 @@
+#board {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 30vw;
+  padding: 1rem;
+  background-color: #E6D2AA;
+  border: 2px solid #100720;
+  border-radius: .3rem;
+}
+
+.game-square {
+  min-width: 5rem;
+  min-height: 5rem;
+  cursor: pointer;
+}
