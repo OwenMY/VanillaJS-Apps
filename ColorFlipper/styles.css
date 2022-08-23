@@ -4,13 +4,44 @@ Global Styles
 ========
 */
 
-/* *,
-::after,
-::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
+/*
+========
+main
+========
+*/
+
+main {
+  margin: auto;
+}
+
+h2 {
+  margin: auto;
+  width: 40vw;
+  text-align: center;
+  padding: 1rem;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: #17202A;
+  color: #FBFCFC;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+  margin: auto;
+}
+
+#btn {
+  margin: auto;
+  background-color: rgba(0, 0, 0, .1);
+  color: #17202A;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
 
 
 /*
