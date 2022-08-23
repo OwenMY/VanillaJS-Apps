@@ -6,7 +6,7 @@ ctr.addEventListener('click', (e) => {
 });
 
 const addNewButton = () => {
-  let newBtn = document.createElement('button');
+  const newBtn = document.createElement('button');
   newBtn.setAttribute('id', 'btn');
   newBtn.textContent = 'I\'ve been clicked 0 times';
   ctr.appendChild(newBtn);
@@ -18,9 +18,9 @@ const incrementCount = (e) => {
   let number = Number(e.target.textContent.slice(numStart, numEnd));
   number++;
 
-  let textStart = e.target.textContent.slice(0, numStart);
-  let textEnd = e.target.textContent.slice(numEnd);
-  let newText = textStart + number + textEnd;
+  const textStart = e.target.textContent.slice(0, numStart);
+  const textEnd = e.target.textContent.slice(numEnd);
+  const newText = textStart + number + textEnd;
 
   e.target.textContent = newText;
 };
