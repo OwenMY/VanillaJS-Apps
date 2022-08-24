@@ -104,4 +104,3 @@ const generateBoardState = () => {
 };
 
 let boardState = generateBoardState();
-console.log(boardState)
