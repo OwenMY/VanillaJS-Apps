@@ -1,0 +1,13 @@
+body {
+  background-color: #FDEEDC;
+  color: #000000;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#testimonial-container {
+  width: 50vw;
+}
