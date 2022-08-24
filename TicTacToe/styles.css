@@ -6,13 +6,14 @@
   align-items: center;
   text-align: center;
   width: 30vw;
-  padding: 1rem;
+  padding: 2rem 1rem 8rem 1rem;
   background-color: #E6D2AA;
   border: 2px solid #100720;
   border-radius: .3rem;
 }
 
 .game-square {
+  font-size: xx-large;
   min-width: 5rem;
   min-height: 5rem;
   cursor: pointer;
@@ -24,7 +25,7 @@
 }
 
 #restart-game {
-  display: block;
+  display: none;
   margin-top: 1rem;
   padding: 1rem 2rem;
   font-weight: 700;
