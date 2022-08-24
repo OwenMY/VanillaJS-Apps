@@ -9,7 +9,7 @@ const fetchData = () => {
     .then(res => res.json())
     .then(data => addDogPics(data.message))
     .catch(err => console.error(err))
-    .finally(() => { fetching = false });
+    .finally(() => fetching = false);
 };
 
 window.addEventListener('scroll', (e) => {
