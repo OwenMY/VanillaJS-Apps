@@ -19,12 +19,16 @@ window.addEventListener('scroll', (e) => {
 });
 
 const addDogPics = (pics) => {
+  const fragment = document.createDocumentFragment();
+
   for (let pic of pics) {
     let img = document.createElement('img');
     img.src = pic;
 
-    ctr.append(img);
+    fragment.appendChild(img);
   }
+
+  ctr.appendChild(fragment);
 };
 
 fetchData();
