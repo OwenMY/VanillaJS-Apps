@@ -1,0 +1,33 @@
+.btn {
+  border: 1px solid;
+  border-radius: 16px;
+  padding: .3rem .7rem;
+  cursor: pointer;
+}
+
+.like-btn {
+  border-color: black;
+  color: black;
+}
+
+.like-btn:hover {
+  border-color: darkgrey;
+  color: darkgrey;
+}
+
+.like-btn-loading {
+  border: 1px solid grey;
+  color: grey;
+}
+
+.like-btn-liked {
+  color: white;
+  background-color: red;
+  border-color: red;
+}
+
+.like-btn-liked:hover {
+  color: red;
+  background-color: white;
+  border: 1px solid red;
+}
