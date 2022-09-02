@@ -1,0 +1,44 @@
+h1 {
+  text-align: center;
+}
+
+#form {
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#input-name {
+  margin: 1rem;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 20rem;
+  padding: 1rem;
+  gap: .2rem;
+  border: 3px solid grey;
+  border-radius: 1rem;
+  background-color: aliceblue;
+}
+
+.keyboard-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: .2rem;
+}
+
+.btn {
+  padding: .2rem .4rem;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
