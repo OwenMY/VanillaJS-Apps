@@ -5,13 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Input World</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
   </head>
   <body>
-    <div class="container">
-      <form>
-        <input type="text" id="name"/>
+    <header>
+      <h1>Input World</h1>
+    </header>
+    <main id="container">
+      <form class="input-form">
+        <label for="name"></label>
+        <input class="name" type="text" id="name"/>
       </form>
-    </div>
-    <script src="app.js"></script>
+      <div class="output-container">
+        <label for="normal-output">Normal: </label>
+        <span class="normal-output" name="normal-output"></span>
+        <label for="debounce-output">Debounce: </label>
+        <span class="debounce-output" name="debounce-output"></span>
+        <label for="throttle-output">Throttle: </label>
+        <span class="throttle-output" name="throttle-output"></span>
+      </div>
+    </main>
   </body>
 </html>
