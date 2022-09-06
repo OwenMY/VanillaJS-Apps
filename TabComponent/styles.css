@@ -1,0 +1,41 @@
+:root {
+  --header-font-family: 'Rubik', sans-serif;
+  --content-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #a8f9ff;
+  font-family: var(--header-font-family);
+}
+
+/**************************
+          Header
+***************************/
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin: auto;
+}
+
+header h1 {
+  font-size: 100px;
+  text-align: center;
+  margin: .5rem;
+}
+
+header h3 {
+  text-align: center;
+}
+
+/**************************
+          Content
+***************************/
+
+#container {
+  height: 100%;
+  background-color: #9ae5e6;
+}
