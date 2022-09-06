@@ -8,7 +8,7 @@ const stopBtn = document.getElementById('stop-button');
 const resetBtn = document.getElementById('reset-button');
 const timer = document.getElementById('timer');
 
-startBtn.addEventListener('click', () => {
+startBtn.addEventListener('click', (e) => {
   startBtn.disabled = true;
   stopBtn.disabled = false;
   resetBtn.disabled = true;

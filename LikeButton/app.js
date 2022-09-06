@@ -6,7 +6,7 @@ let liked = false;
 btn.classList.add('btn', 'like-btn');
 btn.innerHTML = btnText;
 
-btn.addEventListener('click', function() {
+btn.addEventListener('click', function(e) {
   changeLikedState(this);
 });
 
