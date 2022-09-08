@@ -19,6 +19,7 @@ const addNewListItem = (e) => {
   deleteButton.textContent = 'X';
   deleteButton.classList.add('delete-button');
   input.value = '';
+  button.disabled = true;
 
   listItem.append(listDescription, deleteButton);
   list.appendChild(listItem);
